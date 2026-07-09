@@ -168,4 +168,4 @@ lazy val fix = projectMatrix
   .jvmPlatform(Seq(Scala213, Scala212))
   .dependsOn(common)
 
-ThisBuild / scalafixDependencies += "com.github.xuwei-k" %% "scalafix-rules" % "0.6.28"
+ThisBuild / scalafixDependencies += "com.github.xuwei-k" %% "scalafix-rules" % "0.6.29"
